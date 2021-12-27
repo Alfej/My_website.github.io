@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 90px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* .container h1{
+    margin: 5px 5px;
+    font-size: 2.3rem;
+    border-bottom: 2px solid;
+    font-family: 'Permanent Marker', cursive;
+} */
+.profiles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profiles h1{
+    margin: 100px 5px;
+    font-size: 2.3rem;
+    border-bottom: 2px solid;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos img{
+    flex: 1;
+    margin: 10px 60px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+.logos img:hover{
+    height: 220px;
+    width: 220px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.social h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40px 5px;
+    font-size: 2.3rem;
+    border-bottom: 2px solid;
+    font-family: 'Permanent Marker', cursive;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    flex: 1;
+    margin: 10px 60px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+.logo img:hover{
+    height: 70px;
+    width: 70px;
+}
+
+
+#footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 60px;
+    background-color: black;
+}
+@media(max-width:1130px){
+    .container{
+        margin:0px;
+        margin-top: 112px;
+    }
+    .logos{
+        flex-direction: column;
+  }
+  .profiles h1{
+    margin:80px 5px;
+    margin-bottom: 30px;
+}
+  .logo a img{
+      width: 40px;
+      height: 40px;
+      margin: 10px 25px;
+  }
+  .logo a img:hover{
+      width: 50px;
+      height: 50px;
+  }
+}
+@media(max-width:460px){
+    .profiles h1{
+        margin:80px 5px;
+        margin-bottom: 30px;
+    }
+    #footer{
+        font-size: 1rem;
+    }
+    .profiles h1,.social h1{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:378px){
+    .profiles h1{
+        margin:80px 5px;
+        margin-bottom: 30px;
+    }
+    #footer{
+        font-size: 0.75rem;
+    }
+    .profiles h1,.social h1{
+        font-size: 1.3rem;
+    }
+}
+@media(max-width:320px){
+    .logos img{
+        height: 150px;
+        width: 150px;
+        margin: auto;
+    }
+    .profiles h1{
+        margin:80px 5px;
+        margin-bottom: 30px;
+    }
+    .logo a img{
+        width: 35px;
+        height: 35px;
+    }
+    #footer{
+        font-size: 0.65rem;
+    }
+}
