@@ -171,7 +171,7 @@
 @media(max-width:460px){
     #img{
         margin-top: 70px;
-        height: 95%;
+        height: 60%;
     }
         #img img{
         height: 100%;
@@ -183,7 +183,7 @@
 @media(max-width:378px){
     #img{
         margin-top: 60px;
-        height: 75%;
+        height: 50%;
     }
         #img img{
         height: 100%;
@@ -208,7 +208,7 @@
 @media(max-width:320px){
     #img{
         margin-top: 45px;
-        height: 75%;
+        height: 45%;
     }
         #img img{
         height: 100%;
